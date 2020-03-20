@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.589);
+    background-color: rgba(0, 0, 0, 0.897);
+}
+/* header section */
+#header{
+    background:linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.664)), url(/img/home.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+    
+}
+.inner-section{
+    padding-top: 120px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+.check_icons i{
+    background: #fff;
+    padding: 5px;
+    color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.card{
+    opacity: 0.7;
+}
+.card p{
+    font-size: 14px;
+}
+/* explore */
+#explore a{
+    text-decoration: none;
+    color: #fff;
+}
+#explore a:hover{
+    color: #111111;
+}
+.explore_content{
+    background-color: #fff;
+}
+.explore_icon i{
+    background: rgb(14, 14, 15);
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* create */
+#create a{
+    text-decoration: none;
+    color: #fff;
+}
+#create a:hover{
+    color: #111111;
+}
+.create_icon i{
+    background: #fff;
+    padding: 5px;
+    color: rgb(185, 29, 102);
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* share */
+#share a{
+    text-decoration: none;
+    color: #fff;
+}
+#share a:hover{
+    color: #111111;
+}
+.share_content{
+    background-color: #fff;
+}
+.share_icon i{
+    background: rgb(131, 12, 12);
+    padding: 5px;
+    color: rgb(202, 213, 216);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.designed a{
+    text-decoration: none;
+    color: blue;
+}
